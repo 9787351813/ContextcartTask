@@ -1,0 +1,98 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: content-box;
+}
+.cart-item img {
+  width: 200px; /* Adjust width as needed */
+  height: 200%; /* Adjust height as needed */
+  object-fit: cover;
+}
+
+.product-image img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.product-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.price-and-quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantity-controls span {
+  min-width: 20px;
+  text-align: center;
+}
+
+.shop{
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: sans-serif;
+  color: crimson;
+  text-align: center;
+}
+/* App.css */
+
+/* Styles for product details */
+.product-details h3,
+.product-details p {
+    font-size: 1.5em; /* Bigger size */
+}
+
+/* Specific styling for title, description, brand, and rating */
+.product-details .product-title {
+    font-size: 2em; /* Bigger size for title */
+    font-weight: bold;
+}
+
+.product-details .product-description,
+.product-details .product-brand,
+.product-details .product-rating {
+    font-size: 1.8em; /* Bigger size for description, brand, and rating */
+}
+
+/* Styles for total quantity and total amount */
+.cart-summary h4 {
+    font-size: 2em; /* Bigger size for total quantity and total amount */
+}
+.cart-summary{
+  text-align: center;
+  background-color: black;
+  color:white;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
